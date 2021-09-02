@@ -14,10 +14,10 @@ end
 FileC=size(List,1);
 %%
 % PCA
-% Storage in 'Res'£∫
-% 'PriAccC' is the number of files°¡2 matrix, the first row represents the number of principal components retained, and the second row represents the percentage of variance explained by these principal components
+% Storage in 'Res'Ôºö
+% 'PriAccC' is the number of files√ó2 matrix, the first row represents the number of principal components retained, and the second row represents the percentage of variance explained by these principal components
 % 'LastNum' is the number of data points for each fiber tract
-% 'Res' is 96°¡the number of principal components°¡42, which represents the result of the original data after PCA
+% 'Res' is 96√óthe number of principal components√ó42, which represents the result of the original data after PCA
 PriAccC=zeros(FileC,2);LastNum=zeros(FileC,1);
 Res=zeros(96,30,FileC);
 for TC=1:FileC
